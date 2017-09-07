@@ -1,4 +1,6 @@
-package com.transtitlebar;
+package com.transtitlebar.util;
+
+import com.transtitlebar.R;
 
 /**
  * Created by iiro on 7.6.2016.
