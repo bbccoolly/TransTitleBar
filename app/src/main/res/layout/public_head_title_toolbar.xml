@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.Toolbar
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
-    android:id="@+id/toolbar"
     android:background="#3f51b4"
     >
 
@@ -13,6 +13,7 @@
         android:layout_height="50dp"
         android:layout_centerVertical="true"
         android:background="?attr/selectableItemBackground"
+        android:visibility="visible"
         >
 
         <ImageView
@@ -21,6 +22,7 @@
             android:layout_height="30dp"
             android:layout_centerInParent="true"
             android:src="@drawable/back"
+            android:visibility="gone"
             />
 
         <TextView

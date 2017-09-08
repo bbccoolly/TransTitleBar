@@ -4,5 +4,6 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="royalblue">#4169e1</color><!--皇家蓝 -->
-
+    <color name="coral">#ff7f50</color><!--珊瑚色 -->
+    <color name="flash_red">#EF1544</color>
 </resources>

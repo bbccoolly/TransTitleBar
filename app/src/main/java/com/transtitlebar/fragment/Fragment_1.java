@@ -61,7 +61,7 @@ public class Fragment_1 extends BaseFragment {
         mScrollView.setScrollViewListener(new MyScrollView.ScrollViewListener() {
             private int lastScrollY = 0;
 
-            private int color = ContextCompat.getColor(mContext, R.color.royalblue) & 0x00ffffff;
+            private int color = ContextCompat.getColor(mContext, R.color.colorAccent) & 0x00ffffff;
 
             @Override
             public void onScrollChanged(MyScrollView scrollView, int scrollX, int scrollY, int oldScrollX, int oldScrollY) {
